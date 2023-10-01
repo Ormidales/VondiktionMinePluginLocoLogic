@@ -1,0 +1,38 @@
+# Configuration de VondiktionMinePluginLocoLogic
+
+# Paramètres généraux
+pluginVersion: '1.0'
+maxTrains: 100
+maxWagonsPerTrain: 5
+
+# Vitesse par défaut des trains
+defaultSpeed:
+  min: 2
+  max: 10
+
+# Options de spawn automatique
+autoSpawn:
+  enabled: true
+  minInterval: 5m  # Intervalles en minutes
+  maxInterval: 30m
+
+# Configuration des types de wagons
+wagonTypes:
+  - Cargo
+  - Passenger
+  - Utility
+
+# Liste des stations par défaut (ceci est juste un exemple et peut être géré dynamiquement)
+defaultStations:
+  - 'Station_A'
+  - 'Station_B'
+  - 'Station_C'
+
+# Messages personnalisés
+messages:
+  trainCreated: '&aLe train {trainID} a été créé avec succès.'
+  trainDeleted: '&cLe train {trainID} a été supprimé.'
+  trainStarted: '&aLe train {trainID} a démarré.'
+  trainStopped: '&cLe train {trainID} a été arrêté.'
+  trainPaused: '&eLe train {trainID} est en pause.'
+  trainResumed: '&aLe train {trainID} a repris.'

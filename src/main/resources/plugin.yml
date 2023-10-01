@@ -1,0 +1,27 @@
+name: VondiktionMinePluginLocoLogic
+main: com.vondiktion.VondiktionMinePluginLocoLogic.Main
+version: 1.0
+api-version: 1.16
+description: A comprehensive train management plugin by Vondiktion.
+
+# Liste des commandes
+commands:
+  train:
+    description: Main command for managing trains
+    usage: /<command> <subcommand> [arguments]
+    aliases: [trn, tren]
+  line:
+    description: Main command for managing train lines
+    usage: /<command> <subcommand> [arguments]
+    aliases: [ln, linea]
+
+# Permissions (facultatives)
+permissions:
+  VondiktionMinePluginLocoLogic.admin:
+    description: Gives access to all VondiktionMinePluginLocoLogic commands
+    default: op
+  VondiktionMinePluginLocoLogic.use:
+    description: Allows use of user-level commands
+    default: true
+
+# Autres configurations, comme les dépendances, peuvent également être ajoutées.
