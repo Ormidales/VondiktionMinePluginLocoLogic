@@ -11,8 +11,6 @@ Commandes pour contrôler le mouvement et l'état des trains.
 Génération de trains à intervalles réguliers.
 Configuration facile via le fichier config.yml.
 
----
-
 ## Commandes Utilisées
 - /train create <trainID> : Crée un nouveau train avec un ID spécifique.
 - /train delete <trainID> : Supprime un train existant.
